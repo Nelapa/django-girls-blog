@@ -25,7 +25,11 @@ SECRET_KEY = 'rd!8_yqn1oqkhla4i_*pgfhbyy@o_r^-*!798tz*09u!^x#)sa'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'nelapa.pythonanywhere.com'
+]
 
 
 # Application definition
