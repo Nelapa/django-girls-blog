@@ -1,6 +1,7 @@
 {% extends 'blog/base.html' %}
 {% block content %}
 <section class="post">
+    <a class="btn btn-default edit" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
     {% if post.published_date %}
     <div class="date">Опубликовано: {{ post.published_date }}</div>
     {% endif %}
